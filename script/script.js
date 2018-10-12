@@ -1,13 +1,8 @@
-function Point(x, y) {
-    this.x = x;
-    this.y = y;
+function moveon() {
+    var answer = confirm('Ready to move on?');
+    if (answer) window.location = 'google.com';
 }
-var p = new Point(1, 1);
 
-Point.prototype.r = function() {
-    return Math.sqrt(
-        this.x * this.x + this.y * this.y    
-    );
-};
+setTimeout(moveon, 6000);
 
 console.log(p.r());
