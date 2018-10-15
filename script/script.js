@@ -1,3 +1,6 @@
 'use strict';
 
-console.log('должно\nбыть\nтри строки');
+var a = null;
+var b = undefined;
+
+console.log(a === b);
