@@ -1,6 +1,7 @@
 'use strict';
 
-var a = null;
-var b = undefined;
+var a = 1;
+var b = " ";
 
-console.log(a === b);
+console.log(a + b);
+
